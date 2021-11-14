@@ -30,9 +30,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/lib/slick/slick.css",
+              "src/assets/lib/slick/slick-theme.css",
+              "src/assets/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+             "src/assets/lib/easing/easing.min.js",
+              "src/assets/lib/slick/slick.min.js",
+              "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
