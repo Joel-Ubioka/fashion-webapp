@@ -34,6 +34,7 @@
     
     
     // Header slider
+    $(document).ready(function(){
     $('.header-slider').slick({
         autoplay: true,
         dots: true,
@@ -130,6 +131,7 @@
     
     
     // Brand Slider
+    $(document).ready(function(){
     $('.brand-slider').slick({
         speed: 5000,
         autoplay: true,
@@ -170,6 +172,7 @@
             }
         ]
     });
+});
     
     
     // Review slider
