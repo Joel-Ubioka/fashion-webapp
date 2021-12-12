@@ -49,6 +49,7 @@ export class LoginComponent implements OnInit {
     this.message.success = this.authenticationService.login(this.loginForm.value);
     // Just setting a timer to make it  more realistic when things go over the network for delay
     // Settimeout is a global function in javascrit that runs a specific function after a certain interval
+    alert(this.message);
     setTimeout(()=>{
       // I will alert for now, if you want it to redirect you to the home page,
       // Comment the alert and Uncomment the return router line
